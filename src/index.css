@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h5 {
+  cursor: pointer;
+  color: white;
+}
+h5:hover {
+  color: rgb(223, 237, 170);
+  transform: scale(1.1);
+  transition: all 200ms ease;
+}
+h1 {
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+h1:hover {
+  color: rgb(223, 237, 170);
+  transform: scale(1.1);
+}
+h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 84px;
+
+  color: #fffada;
+}
+h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #ccb9b1;
+}
+p {
+  color: #fffada;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+}
+h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 38px;
+  color: #ffffff;
+  cursor: pointer;
+}
+h4:hover {
+  color: rgb(223, 237, 170);
+}
+#icon {
+  cursor: pointer;
+}
+#icon:hover {
+  background-color: #392617;
+  border-radius: 50%;
+
+  transform: scale(1.1);
+  transition: all 200ms ease;
+}
